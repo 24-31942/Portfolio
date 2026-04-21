@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pamela Portfolio</title>
+</head>
+<body>
+
+    <!-- HERO SECTION -->
+    <header>
+        <h1>Hi, It's your full stack,<br> Pam - Web Developer</h1>
+        <p>
+            Building seamless digital experiences from front to back.
+            Passionate about creating clean and user-friendly solutions.
+        </p>
+        <button>Contact Me</button>
+        <br><br>
+        <img src="profile.jpg" alt="Profile Photo" width="200">
+    </header>
+
+    <hr>
+
+    <!-- ABOUT SECTION -->
+    <section>
+        <h2>Meet the Developer</h2>
+        <img src="about.jpg" alt="About Image" width="300">
+        <p>
+            I am a passionate developer with a strong foundation in programming.
+            I enjoy solving real-world problems and continuously improving my skills.
+            I focus on building responsive, efficient, and user-friendly systems.
+        </p>
+    </section>
+
+    <hr>
+
+    <!-- TOOLKIT -->
+    <section>
+        <h2>Developer Toolkit</h2>
+
+        <h3>Technical Skills</h3>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Flask</li>
+            <li>Git</li>
+        </ul>
+
+        <h3>Non-Technical Skills</h3>
+        <ul>
+            <li>Communication</li>
+            <li>Problem Solving</li>
+            <li>Teamwork</li>
+            <li>Time Management</li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <!-- PROJECTS -->
+    <section>
+        <h2>Pamela's Work</h2>
+
+        <article>
+            <h3>Food Ordering System</h3>
+            <img src="project1.jpg" alt="Project 1" width="300">
+            <p>A Python-based food and beverage ordering system.</p>
+        </article>
+
+        <article>
+            <h3>Task Manager</h3>
+            <img src="project2.jpg" alt="Project 2" width="300">
+            <p>A simple system to manage tasks efficiently.</p>
+        </article>
+
+        <article>
+            <h3>Dashboard System</h3>
+            <img src="project3.jpg" alt="Project 3" width="300">
+            <p>A data visualization dashboard for monitoring information.</p>
+        </article>
+    </section>
+
+    <hr>
+
+    <!-- CONTACT -->
+    <section>
+        <h2>Let's Work Together</h2>
+
+        <form>
+            <label>Name:</label><br>
+            <input type="text" name="name"><br><br>
+
+            <label>Email:</label><br>
+            <input type="email" name="email"><br><br>
+
+            <label>Message:</label><br>
+            <textarea name="message" rows="5" cols="30"></textarea><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <h3>Contact Info</h3>
+        <p>Email: pamela@email.com</p>
+        <p>Phone: 0912-345-6789</p>
+        <p>Location: Manila, Philippines</p>
+    </section>
+
+
+</body>
+</html>
